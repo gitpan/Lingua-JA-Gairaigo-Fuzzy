@@ -1,0 +1,50 @@
+{
+   "abstract" : "variant spellings of foreign words in Japanese",
+   "author" : [
+      "Ben Bullock <bkb@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Lingua-JA-Gairaigo-Fuzzy",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Lingua::JA::Moji" : 0,
+            "Text::Fuzzy" : "0.10_03"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/benkasminbullock/Lingua-JA-Gairaigo/issues"
+      },
+      "repository" : {
+         "url" : "https://github.com/benkasminbullock/Lingua-JA-Gairaigo"
+      }
+   },
+   "version" : "0.01"
+}
