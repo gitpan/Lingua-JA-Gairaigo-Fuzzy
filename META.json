@@ -4,7 +4,7 @@
       "Ben Bullock <bkb@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.88, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -33,7 +33,8 @@
       "runtime" : {
          "requires" : {
             "Lingua::JA::Moji" : "0.24",
-            "Text::Fuzzy" : "0.14"
+            "Text::Fuzzy" : "0.14",
+            "perl" : "5.008009"
          }
       }
    },
@@ -46,5 +47,5 @@
          "url" : "https://github.com/benkasminbullock/Lingua-JA-Gairaigo-Fuzzy"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
